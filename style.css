@@ -9,12 +9,10 @@ body {
     margin: 0 auto;
     display: block;
     text-align: right;
+    font-family: fantasy, cursive;
 }
 .header img {
     width: 100%;
-}
-.header .more_inf {
-    font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
