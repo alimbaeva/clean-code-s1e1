@@ -89,11 +89,6 @@ button {
     color: #333;
 }
 
-/* New Task */
-input#new-task {
-    width: 318px;
-}
-
 /* Task list */
 .task-item {
     overflow: hidden;
@@ -126,7 +121,7 @@ input#new-task {
 }
 
 /* Completed */
-ul#completed-tasks .sticker-task {
+#completed-tasks .sticker-task {
     text-decoration: line-through;
     color: #888;
 }
