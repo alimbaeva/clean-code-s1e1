@@ -20,8 +20,8 @@ body {
 }
 
 .task {
-    width: 56%;
     flex-grow: 1;
+    overflow: hidden;
 }
 
 .add-task-block {
