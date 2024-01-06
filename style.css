@@ -6,23 +6,23 @@ body {
 }
 
 ul {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 
 li {
-    list-style:none;
+    list-style: none;
 }
 
 input,
 button {
-    outline:none;
+    outline: none;
 }
 
 .container {
     display: block;
     width: 500px;
-    margin: 0 auto 0;
+    margin: 0 auto;
 }
 
 .header {
@@ -128,19 +128,18 @@ button {
 
 /* Edit Task */
 .task-item .text-input {
-    display:none;
+    display: none;
 }
 
 .edit-mode .text-input {
-    display:inline-block;
-    width:224px;
+    display: inline-block;
 }
 
 .edit-mode .sticker-task {
-    display:none;
+    display: none;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .header { 
         text-align: center;
     }
