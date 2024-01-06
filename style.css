@@ -5,10 +5,13 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.header {
-    width: 500px;
-    margin: 0 auto;
+.container {
     display: block;
+    width: 500px;
+    margin: 0 auto 0;
+}
+
+.header {
     text-align: right;
     font-family: fantasy, cursive;
 }
@@ -17,15 +20,8 @@ body {
     width: 100%;
 }
 
-.container {
-    display: block;
-    width: 500px;
-    margin: 0 auto 0;
-}
-
 .task {
     width: 56%;
-    display: inline-block;
     flex-grow: 1;
 }
 
@@ -92,7 +88,6 @@ input[type="text"]:focus {
 
 /* New Task */
 .title-add-task {
-    display: block;
     margin: 0 0 20px;
 }
 
@@ -105,7 +100,6 @@ li {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
