@@ -111,11 +111,10 @@ li > * {
     margin: 0 10px;
 }
 
-li > label {
+.sticker-task {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
-    width: 226px;
 }
 
 .delete-button img {
@@ -129,7 +128,7 @@ li > label {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed-tasks .sticker-task {
     text-decoration: line-through;
     color: #888;
 }
@@ -143,7 +142,7 @@ li.edit-mode .text-input {
     display: inline-block;
 }
 
-ul li.edit-mode label {
+li.edit-mode .sticker-task {
     display: none;
 }
 
