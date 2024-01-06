@@ -39,6 +39,7 @@ button {
 }
 
 .add-task-block {
+    margin-top: 20px;
     display: flex;
 }
 
@@ -60,7 +61,7 @@ button {
 }
 
 /* Heading */
-h3 {
+.title-task {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -88,10 +89,6 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.title-add-task {
-    margin: 0 0 20px;
-}
-
 input#new-task {
     width: 318px;
 }
