@@ -94,17 +94,13 @@ input#new-task {
 }
 
 /* Task list */
-li {
+.task-item {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-li > * {
-    vertical-align: middle;
 }
 
 .checkbox-task {
@@ -134,15 +130,15 @@ ul#completed-tasks .sticker-task {
 }
 
 /* Edit Task */
-li .text-input {
+.task-item .text-input {
     display: none;
 }
 
-li.edit-mode .text-input {
+.edit-mode .text-input {
     display: inline-block;
 }
 
-li.edit-mode .sticker-task {
+.edit-mode .sticker-task {
     display: none;
 }
 
